@@ -36,7 +36,7 @@ import { APP_BASE_HREF } from '@angular/common';
     FontAwesomeModule,
     StoreModule.forRoot({ theme: themeReducer }, {})
   ],
-  providers: [{ provide: APP_BASE_HREF, useValue: '/colors' }],
+  providers: [{ provide: APP_BASE_HREF, useValue: '/colors-ng' }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
