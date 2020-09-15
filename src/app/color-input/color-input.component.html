@@ -1,0 +1,5 @@
+<div class="colors-colorinput {{className}}">
+    <input class="colors-colorinput__input" value={{color}} (input)="updateColor($event)" />
+    <span class="colors-colorinput__preview" style="background-color: {{color}}"></span>
+    <button class="colors-colorinput__button" (click)="showColorInfo()">{{label}}</button>
+</div>

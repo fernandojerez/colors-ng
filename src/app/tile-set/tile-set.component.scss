@@ -1,0 +1,10 @@
+.colors-tileset {
+    display: flex;
+    flex-wrap: wrap;
+    &--large {
+        justify-content: space-around;
+    }
+    &--compact {
+        justify-content: flex-start;
+    }
+}

@@ -1,0 +1,5 @@
+{
+    "menu": {
+        "run development": "shell:npx ng serve --open"
+    }
+}
