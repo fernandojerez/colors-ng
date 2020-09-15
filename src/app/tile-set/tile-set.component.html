@@ -1,5 +1,0 @@
-<div class="colors-tileset colors-tileset--{{mode}}">
-    <a *ngFor="let color of colors; index as i" [routerLink]="['/info']" [queryParams]="{color: color}">
-        <app-tile [color]="color" [mode]="mode"></app-tile>
-    </a>
-</div>
